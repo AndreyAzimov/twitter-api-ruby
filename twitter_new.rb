@@ -11,8 +11,7 @@ class TwitterNew
   require 'http'
   require 'simple_oauth'
   require 'json'
-
-
+  
   def self.post_tweet(tweet_text)
     url = "https://api.twitter.com/2/tweets"
     headers = {
@@ -26,9 +25,6 @@ class TwitterNew
     }
 
     body = { "text" => tweet_text }.to_json
-
-    puts "Headers: #{headers}"
-    puts "Body: #{body}"
 
     response = HTTP.headers(headers).post(url, body: body)
 
