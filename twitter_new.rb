@@ -1,7 +1,3 @@
-# Twitter API Ruby
-1 file to programmatically post to twitter using new api v2 (2024)
-
-```
 class TwitterNew
   # 1 file to programmatically post to twitter using new api v2 (2024)
   # 
@@ -47,4 +43,3 @@ class TwitterNew
   end
 
 end
-```
