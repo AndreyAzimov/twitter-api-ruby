@@ -1,10 +1,10 @@
 # Twitter API Ruby
-1 file to programmatically post to twitter using new api v2 (2024)
+1 file to programmatically post to twitter using new api v2 (2024). Just copy and use it.
 
 ```
 class TwitterNew
   # 1 file to programmatically post to twitter using new api v2 (2024)
-  # 
+  
   # How to use:
   # 1. Get tokens: https://developer.twitter.com/en/portal/dashboard
   # 2. Change tokens in the code bellow
