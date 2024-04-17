@@ -1,4 +1,4 @@
-# Twitter API Ruby
+# Twitter API V2 Ruby 2024
 1 file to programmatically post to twitter using new api v2 (2024). Just copy and use it.
 
 ```
