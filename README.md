@@ -1,5 +1,5 @@
 # Twitter API Ruby
-1 file to automatically post to twitter using new api v2
+1 file to programmatically post to twitter using new api v2 (2024)
 
 ```
 class TwitterNew
