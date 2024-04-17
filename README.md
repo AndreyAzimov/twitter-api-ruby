@@ -31,9 +31,6 @@ class TwitterNew
 
     body = { "text" => tweet_text }.to_json
 
-    puts "Headers: #{headers}"
-    puts "Body: #{body}"
-
     response = HTTP.headers(headers).post(url, body: body)
 
     if response.code == 201
