@@ -1,11 +1,16 @@
-class TwitterNew
+# Twitter API Ruby
+1 file to programmatically post to twitter using new api v2 (2024)
 
+```
+class TwitterNew
+  # 1 file to programmatically post to twitter using new api v2 (2024)
+  # 
   # How to use:
   # 1. Get tokens: https://developer.twitter.com/en/portal/dashboard
   # 2. Change tokens in the code bellow
-  # 3. Install these 3 gems: http, simple_oauth, json
+  # 3. Install these 2 gems: http, simple_oauth
   # 4. Save this file to as twitter_new.rb
-  # 5. Usage: Twitter.post_tweet("hello world \n\nelon 🤗")
+  # 5. Usage: Twitter.post_tweet("hello world \n\n elon")
   
   require 'http'
   require 'simple_oauth'
@@ -42,3 +47,4 @@ class TwitterNew
   end
 
 end
+```
