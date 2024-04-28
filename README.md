@@ -30,6 +30,9 @@ class TwitterNew
     }
 
     body = { "text" => tweet_text }.to_json
+    # only mentioned users can reply. if no one were mentioned then no one can reply
+    # body = { "text" => tweet_text, "reply_settings" => "mentionedUsers" }.to_json
+
 
     response = HTTP.headers(headers).post(url, body: body)
 
