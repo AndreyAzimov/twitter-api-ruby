@@ -10,7 +10,7 @@ class TwitterNew
   # 2. Change tokens in the code bellow
   # 3. Install these 2 gems: http, simple_oauth
   # 4. Save this file to as twitter_new.rb
-  # 5. Usage: Twitter.post_tweet("hello world \n\n elon")
+  # 5. Usage: TwitterNew.post_tweet("hello world \n\n elon")
   
   require 'http'
   require 'simple_oauth'
